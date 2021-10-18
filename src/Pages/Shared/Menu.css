@@ -1,0 +1,7 @@
+.navbar-nav .btn {
+  background-color: #0966a3;
+  color: white !important;
+}
+.navbar-nav {
+  gap: 10px;
+}
