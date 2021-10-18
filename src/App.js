@@ -8,6 +8,7 @@ import React from "react";
 import Aboutus from "./Pages/Aboutus/Aboutus";
 import Notfound from "./Pages/Notfound/Notfound";
 import MoreAboutus from "./Pages/MoreAboutus/MoreAboutus";
+import Services from "./Pages/Home/Services/Services";
 
 export default function App() {
   return (
@@ -25,6 +26,9 @@ export default function App() {
         </Route>
         <Route path="/moreaboutus">
           <MoreAboutus />
+        </Route>
+        <Route path="/services">
+          <Services />
         </Route>
         <Route exact path="*">
           <Notfound />

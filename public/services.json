@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "picture": "https://ohparent.com/wp-content/uploads/2019/05/Free-Fitness-e1557758577975.jpg",
+    "title": "Outdoor Classes",
+    "pricing": "180",
+    "description": "We set the standard for quality in group fitness training. The variety of programs, value and level of quality are unmatched in the neighborhood. We may be an old school gym, but we are with the times and provide contemporary classes in various disciplines, including Yoga, Pilates and Boxing."
+  },
+  {
+    "id": "2",
+    "picture": "https://f7.vamtam.com/wp-content/uploads/2021/03/iStock-1142215496.jpg",
+    "title": "Virtual person training",
+    "pricing": "200",
+    "description": "Pre-recorded workout videos are so yesterday. F7 brings you the best virtual personal training option with live, 1-on-1, training sessions—all from the comfort of your home or any place on the world that you feel comfortable."
+  },
+  {
+    "id": "3",
+    "picture": "https://stewarthunter.armymwr.com/application/files/6515/4040/6455/HiiT_Classes-1.jpg",
+    "title": "High Intensity Training",
+    "pricing": "280",
+    "description": "The High-intensity training (HIT) class experience can be fully customized to the speed that's right for you, so it's perfect for all skill levels. Headphones required."
+  },
+  {
+    "id": "4",
+    "picture": "https://d1s2fu91rxnpt4.cloudfront.net/mainsite/m20170831160258/raw/Open-Saline-Marty%2520Harms.jpg",
+    "title": "Crossfit",
+    "pricing": "80",
+    "description": "Crossfit workouts are different every day and can be modified to help each athlete achieve their goals. The workouts may be adapted for people at any age and level of fitness."
+  },
+  {
+    "id": "5",
+    "picture": "https://img.olympicchannel.com/images/image/private/t_16-9_1920/primary/dyzftci4wvroohbg4tnq",
+    "title": "Boxing",
+    "pricing": "100",
+    "description": "Our workouts are next-level challenging. Boxing, plyometrics and body-weight exercises are fused into one high-intensity interval-training session that works your full body and mind."
+  },
+  {
+    "id": "6",
+    "picture": "https://images.squarespace-cdn.com/content/v1/59ac1d947131a5484664f79b/1615916857396-CD8BJNCO01M585I6C7W0/Pilates-Group-Class-square-opt.jpg?format=2500w",
+    "title": "YOGA and Pilates",
+    "pricing": "200",
+    "description": "When you’re craving a little more intensity, F7 conditioning classes will help you strengthen and tone your body—and break a serious sweat. Whatever your life stage or experience level you’ll find workouts that support your goals."
+  },
+  {
+    "id": "7",
+    "picture": "https://ladywimbledon.com/wp-content/uploads/2019/08/David-Lloyd-Battlebox-3.jpg",
+    "title": "Group BattleBox",
+    "pricing": "50",
+    "description": "Combining full body fitness training, high energy challenges, teamwork and all-important fresh air, a 45 minute Battlebox class will challenge you physically and mentally, whilst providing a unique alternative to your usual routine."
+  },
+  {
+    "id": "8",
+    "picture": "https://media.istockphoto.com/photos/male-personal-trainer-helping-sportswoman-to-do-exercises-with-at-picture-id972833328?k=20&m=972833328&s=612x612&w=0&h=LtGaklhIxyJbMkxEKDNWzGXgX-zmONE2-llVRDrv17c=",
+    "title": "Personal Training",
+    "pricing": "300",
+    "description": "Personal Training at F7 is all about you. You will not only leave each session looking great, but feeling great too. We guarantee you will actually enjoy working out again! Below are just a few of the added benefits and features."
+  },
+  {
+    "id": "9",
+    "picture": "https://blogs.constantcontact.com/wp-content/uploads/2021/01/Social-16.jpg",
+    "title": "Customized Training for you",
+    "pricing": "250",
+    "description": "You and your dedicated personal trainer will create a plan that’s tailored to your goals—and together, you’ll work to unlock the results you want. At every step of the way, you’ll be driven by a passionate trainer using the latest science during in-club sessions."
+  }
+]

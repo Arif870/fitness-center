@@ -1,0 +1,31 @@
+.service {
+  width: 400px !important;
+}
+.service .card {
+  border: none;
+  box-shadow: 2px 4px 13px #0966a338;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.service .card:hover {
+  box-shadow: 2px 4px 13px #074e8560;
+}
+.service img {
+  height: 250px;
+  border-radius: 10px 10px 0px 0px;
+}
+.service span {
+  border: 1px solid #0966a3;
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+  color: #0966a3;
+  margin: 10px auto;
+  border-radius: 6px;
+  transition: 0.4s;
+}
+.service span:hover {
+  background-color: #0966a3;
+  color: white;
+}
