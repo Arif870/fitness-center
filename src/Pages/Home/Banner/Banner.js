@@ -8,7 +8,7 @@ import logo from "../../../images/banner.png";
 
 export default function Banner() {
   return (
-    <div className="container d-flex align-items-center justify-content-between mt-5 banner gap-5  flex-wrap">
+    <div className="container d-flex align-items-center justify-content-center mt-5 banner gap-4  flex-wrap">
       <div className="fit">
         <img className="w-100" src={logo} alt="" />
       </div>

@@ -1,12 +1,12 @@
 .slider {
-  width: 500px;
-  position: relative;
+  width: 50%;
 }
 .fit {
   width: 500px;
 }
-.slider .carousel-inner {
-  border-radius: 10px;
+
+.bannerbtn .btn {
+  border: 1px solid #0966a3;
 }
 .slider .carousel-indicators {
   position: absolute;

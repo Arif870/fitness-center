@@ -5,6 +5,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Menu from "./Pages/Shared/Menu";
 
 import React from "react";
+import Aboutus from "./Pages/Aboutus/Aboutus";
+import Notfound from "./Pages/Notfound/Notfound";
+import MoreAboutus from "./Pages/MoreAboutus/MoreAboutus";
 
 export default function App() {
   return (
@@ -13,6 +16,18 @@ export default function App() {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route path="/home">
+          <Home />
+        </Route>
+        <Route path="/aboutus">
+          <Aboutus />
+        </Route>
+        <Route path="/moreaboutus">
+          <MoreAboutus />
+        </Route>
+        <Route exact path="*">
+          <Notfound />
         </Route>
       </Switch>
     </Router>

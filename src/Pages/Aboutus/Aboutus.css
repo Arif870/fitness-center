@@ -1,0 +1,30 @@
+.aboutus h1 {
+  margin-top: 100px;
+}
+.aboutus h1::before {
+  content: "- ";
+  color: #0966a3;
+}
+.aboutus h1::after {
+  content: " -";
+  color: #0966a3;
+}
+.aboutus img {
+  width: 400px;
+}
+.aboutus .btn {
+  background-color: #0966a3;
+  color: white;
+}
+.aboutus .btn:hover {
+  color: white;
+}
+.aboutus .content {
+  width: 50%;
+  color: #333;
+}
+@media screen and (max-width: 991px) {
+  .aboutus .content {
+    width: 90%;
+  }
+}
