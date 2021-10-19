@@ -1,5 +1,4 @@
 import React from "react";
-import { Card } from "react-bootstrap";
 import "./Aboutus.css";
 import banner from "../../images/aboutus.png";
 import { Link } from "react-router-dom";
@@ -13,7 +12,7 @@ export default function Aboutus() {
       </p>
       <hr />
       <div className="d-flex align-items-center gap-5 mt-5  flex-wrap justify-content-center">
-        <img className="" src={banner} alt="banner" />
+        <img src={banner} alt="banner" />
         <div className="content ">
           <p>
             Gym – Fitness theme is built for Sport Clubs, Health Clubs, Yoga

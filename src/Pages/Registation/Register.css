@@ -1,0 +1,25 @@
+.register {
+  width: 400px;
+}
+.register form input {
+  padding: 15px;
+  border: none;
+  background-color: #0965a328;
+}
+.register button {
+  width: 100%;
+  padding: 15px;
+  background-color: #0965a3;
+}
+.register button:hover {
+  background-color: #084872;
+}
+@media screen and (max-width: 450px) {
+  .register {
+    width: 90%;
+  }
+}
+.register a {
+  text-decoration: none;
+  margin-left: 10px;
+}

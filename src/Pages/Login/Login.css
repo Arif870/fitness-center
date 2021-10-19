@@ -1,0 +1,25 @@
+.login {
+  width: 400px;
+}
+.login form input {
+  padding: 15px;
+  border: none;
+  background-color: #0965a328;
+}
+.login button {
+  width: 100%;
+  padding: 15px;
+  background-color: #0965a3;
+}
+.login button:hover {
+  background-color: #084872;
+}
+@media screen and (max-width: 450px) {
+  .login {
+    width: 90%;
+  }
+}
+.login a {
+  text-decoration: none;
+  margin-left: 10px;
+}

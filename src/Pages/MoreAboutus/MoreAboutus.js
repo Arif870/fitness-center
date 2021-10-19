@@ -31,7 +31,7 @@ export default function MoreAboutus() {
         dancing. It has purpose oriented design and comes with events / classes,
         schedule / timetable, opening hours. It is also suitable for
       </p>
-      <Link to="/">
+      <Link as={Link} to="/#home">
         <button className="btn btn-primary mx-auto d-block my-5">
           Go back to home
         </button>

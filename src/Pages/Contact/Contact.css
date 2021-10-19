@@ -1,0 +1,53 @@
+.contact {
+  margin-top: 80px;
+}
+.contact .card {
+  width: 350px;
+  border: none;
+}
+.contact .card i {
+  color: #0966a3;
+  font-size: 60px;
+  padding: 20px;
+  border: 1px solid #0966a3;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.contact .card {
+  border: none;
+  box-shadow: 2px 4px 13px #0966a338;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.contact .card:hover {
+  box-shadow: 2px 4px 13px #074e8560;
+}
+.location {
+  margin-top: 50px;
+}
+.location .map {
+  width: 40%;
+  height: 300px;
+}
+.location .map iframe {
+  height: 100%;
+}
+
+.location .form {
+  width: 50%;
+}
+
+@media screen and (max-width: 991px) {
+  .location .map {
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+  .location .form {
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+}

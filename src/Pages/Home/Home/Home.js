@@ -1,7 +1,8 @@
 import React from "react";
 import Aboutus from "../../Aboutus/Aboutus";
-import Service from "../../Service/Service";
 import Banner from "../Banner/Banner";
+import Faq from "../Faq/Faq";
+import Getoff from "../Getoff/Getoff";
 import Services from "../Services/Services";
 
 export default function Home() {
@@ -10,6 +11,8 @@ export default function Home() {
       <Banner />
       <Aboutus />
       <Services />
+      <Faq />
+      <Getoff />
     </div>
   );
 }
