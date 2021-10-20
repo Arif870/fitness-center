@@ -10,7 +10,6 @@ import {
   onAuthStateChanged,
   signOut,
 } from "firebase/auth";
-import { useHistory } from "react-router";
 
 Firebaseinit();
 
@@ -23,8 +22,6 @@ export default function useFirebase() {
   const [phone, setPhone] = useState("");
   const [error, setError] = useState("");
 
-  const history = useHistory();
-
   const googleProvider = new GoogleAuthProvider();
 
   const auth = getAuth();
@@ -32,15 +29,6 @@ export default function useFirebase() {
   const handleGoogleSignIn = () => {
     setIsLoading(true);
     return signInWithPopup(auth, googleProvider);
-    // .then(result => {
-    //   setUser(result.user);
-    //   setError("");
-    //
-    // .finally(() => setIsLoading(false))
-    // .catch(error => {
-    //   setError(error.message);
-    //   // ...
-    // });
   };
 
   const handleRegister = e => {
@@ -100,7 +88,7 @@ export default function useFirebase() {
       }
       setIsLoading(false);
     });
-  }, []);
+  }, [auth]);
 
   const userLogOut = () => {
     setIsLoading(true);

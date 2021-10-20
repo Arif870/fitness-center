@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import useFatch from "../../../Hooks/useFatch";
 import Service from "../../Service/Service";
 import "./Services.css";

@@ -35,9 +35,9 @@ export default function App() {
           <PrivateRoute path="/services">
             <Services />
           </PrivateRoute>
-          <Route path="/singleservice/:title">
+          <PrivateRoute path="/singleservice/:title">
             <ServiceDetails></ServiceDetails>
-          </Route>
+          </PrivateRoute>
           <Route path="/contact">
             <Contact></Contact>
           </Route>
